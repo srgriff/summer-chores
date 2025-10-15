@@ -10,7 +10,7 @@ function mowYard(name, callback) {
 
 function weedEat(name, callback) {
   setTimeout(() => {
-   
+    
     if (Math.random() < fatigueLevel / 100) {
       console.log(`${name} fell asleep after mowing the yard.`);
       return;
@@ -59,7 +59,7 @@ function waterGarden(name, callback) {
 
 function allChoresComplete(name) {
   console.log(`${name} finished all their chores!`);
-  fatigueLevel = 0; 
+  fatigueLevel = 0;
 }
 
 function doSummerChores(name) {
