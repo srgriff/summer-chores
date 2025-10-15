@@ -59,11 +59,11 @@ function waterGarden(name, callback) {
 
 function allChoresComplete(name) {
   console.log(`${name} finished all their chores!`);
-  fatigueLevel = 0; // Reset for next Saturday
+  fatigueLevel = 0; 
 }
 
 function doSummerChores(name) {
-  fatigueLevel = 0; // Reset fatigue at start of day
+  fatigueLevel = 0; 
   mowYard(name, (personName) => {
     weedEat(personName, (personName) => {
       trimHedges(personName, (personName) => {
