@@ -10,7 +10,7 @@ function mowYard(name, callback) {
 
 function weedEat(name, callback) {
   setTimeout(() => {
-    // Check if person fell asleep (random chance increases with fatigue)
+   
     if (Math.random() < fatigueLevel / 100) {
       console.log(`${name} fell asleep after mowing the yard.`);
       return;
